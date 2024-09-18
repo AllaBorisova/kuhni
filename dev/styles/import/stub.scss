@@ -48,6 +48,9 @@
   }
   &__img{
     max-width: 382px;
+    @media (max-width: $breakpoint-mobile) {
+      margin-left: -76px;
+    }
   }
   &__desc {
     padding-top: 30px;
